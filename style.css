@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+
+/* Services Section */
+
+.services-section {
+    padding: 70px 0;
+    background-color: #f7f7f7;
+}
+
+
+/* Section Title */
+
+.section-title {
+    max-width: 650px;
+    margin: 0 auto 45px;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.title-line {
+    width: 45px;
+    height: 3px;
+    background-color: #155ca8;
+    margin: 0 auto 15px;
+}
+
+.section-title p {
+    color: #999;
+    font-size: 12px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+
+/* Service Card */
+
+.service-card {
+    background-color: #ffffff;
+
+    min-height: 280px;
+
+    padding: 30px 25px 20px;
+
+    text-align: center;
+
+    border: 1px solid #eeeeee;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Icon */
+
+.service-icon {
+    width: 70px;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 12px;
+}
+
+.service-icon i {
+    font-size: 48px;
+    color: #155ca8;
+}
+
+
+/* Title */
+
+.service-card h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #111;
+
+    margin-bottom: 12px;
+}
+
+
+/* Description */
+
+.service-card p {
+    max-width: 240px;
+
+    font-size: 10px;
+    line-height: 1.8;
+
+    color: #999;
+
+    margin-bottom: 20px;
+}
+
+
+/* Read More */
+
+.read-more {
+    width: 120px;
+    height: 36px;
+
+    border: 1px solid #b7cce5;
+
+    color: #155ca8;
+
+    text-decoration: none;
+
+    font-size: 10px;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    margin-top: auto;
+}
+
+.read-more i {
+    font-size: 11px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 767px) {
+
+    .services-section {
+        padding: 50px 15px;
+    }
+
+    .section-title h2 {
+        font-size: 26px;
+    }
+
+}
