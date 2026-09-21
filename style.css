@@ -154,3 +154,30 @@ body {
     }
 
 }
+
+.potential-section {
+    background-color: #f8f9fa;
+}
+
+.potential-section h2 {
+    font-weight: 700;
+    color: #222;
+}
+
+.potential-card {
+    background: white;
+    padding: 35px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.potential-card h3 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.potential-card p {
+    margin: 0;
+    color: #777;
+}
