@@ -155,29 +155,101 @@ body {
 
 }
 
-.potential-section {
-    background-color: #f8f9fa;
+/* International Customer Potential */
+
+.international-section {
+    background-color: #063b5b;
+    padding: 70px 0 80px;
 }
 
-.potential-section h2 {
+.international-title {
+    text-align: center;
+    color: white;
+    margin-bottom: 45px;
+}
+
+.international-title h2 {
+    font-size: 38px;
     font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.title-line {
+    width: 45px;
+    height: 3px;
+    background-color: white;
+    margin: 0 auto 18px;
+}
+
+.international-title p {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 1.8;
+    color: #d8e5ec;
+}
+
+
+/* Cards */
+
+.international-card {
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.international-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content {
+    padding: 22px 15px 28px;
+}
+
+.card-content h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
     color: #222;
+    margin-bottom: 15px;
 }
 
-.potential-card {
-    background: white;
-    padding: 35px 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-}
-
-.potential-card h3 {
-    font-size: 42px;
-    font-weight: 700;
+.number {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1;
+    color: #0755c7;
     margin-bottom: 10px;
 }
 
-.potential-card p {
+.card-content p {
+    font-size: 10px;
+    font-weight: 700;
+    color: #222;
     margin: 0;
-    color: #777;
+}
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+    .international-section {
+        padding: 50px 15px;
+    }
+
+    .international-title h2 {
+        font-size: 30px;
+    }
+
+    .international-card img {
+        height: 200px;
+    }
+
 }
